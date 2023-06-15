@@ -165,7 +165,7 @@ body {
     }
 
     .recept {
-        border: 2px solid white;
+        border: 1px solid white;
         border-color: white;
     }
 
@@ -267,6 +267,19 @@ body {
         flex-direction: row;
     } 
 
+    #recept-nazev1 {
+        color: white;
+        font-weight: 800;
+        font-size: 48px;
+        padding-top: 200px;
+        margin-bottom: 0px;
+        text-align:left;
+    }
+
+    .recept-nazev {
+        font: size 28px;
+    }
+
     .hlavni-recept {
         flex: 1 1 70%;
         height: 400px;
@@ -293,7 +306,22 @@ body {
         border: 1px solid white;
     }
 
-   
+    .recept-kategorie {
+        text-align: left;
+        color:white;
+        font-size: 14px;
+        font-weight:400;
+        font-family: 'Source Sans Pro', sans-serif;
+        
+    }
+
+    .recept-komentare {
+        text-align: right;
+        margin-top: -20px;
+        font-size: 14px;
+        color:white;
+        font-family: 'Source Sans Pro', sans-serif;
+    }
 
 
 
